@@ -1,0 +1,3 @@
+C:/Code/Jogo_do_Milhao/cmake-build-debug/CMakeFiles/Jogo_do_Milhao.dir
+C:/Code/Jogo_do_Milhao/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Code/Jogo_do_Milhao/cmake-build-debug/CMakeFiles/rebuild_cache.dir
