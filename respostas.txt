@@ -1,4 +1,4 @@
-1. Resp 1, Resp 2, Resp 3, Resp 4
-2. Resp 2, Resp 3, Resp 5, Resp 7
-3. Resp 1, Resp 2, Resp 3, Resp 4
-4. Resp 1, Resp 2, Resp 3, Resp 4
+1. Tubarao, Polvo, Baleia, Lagosta
+2. Hiroshima, Nagasaki, Toquio, Kyoto
+3. Madrid, Lisboa, Roma, Paris
+4. J.K. Rowling, J.R.R. Tolkien, George R.R. Martin, Marcelo de Mat

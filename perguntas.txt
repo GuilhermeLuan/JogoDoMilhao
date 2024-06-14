@@ -1,4 +1,4 @@
-1. TESTE 1
-2. TESTE 2
-3. TESTE 3
-4. TESTE 4
+1. Qual destes e um mamifero?
+2. Qual foi a primeira cidade a ser atacada com uma bomba atomica?
+3. Qual e a capital da Franca?
+4. Qual e o nome do escritor de "O Senhor dos Aneis"?
