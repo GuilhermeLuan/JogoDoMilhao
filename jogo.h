@@ -13,5 +13,6 @@ int lerPerguntas(const char *arquivoPergunta, Pergunta **items, int *qtdPergunta
 int lerRespostas(const char *arquivoRespostas, Pergunta *items);
 int lerRespostasCertas(const char *respostaCerta, Pergunta **items, int *qtdPerguntas);
 void trim(char *str);
+void *extraChance();
 
 #endif
