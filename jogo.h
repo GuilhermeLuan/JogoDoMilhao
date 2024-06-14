@@ -10,7 +10,7 @@ typedef struct {
 } Pergunta;
 
 int lerPerguntas(const char *arquivoPergunta, Pergunta **items, int *qtdPerguntas);
-int lerRespostas(const char *arquivoRespostas, Pergunta **items, int *qtdPerguntas);
+int lerRespostas(const char *arquivoRespostas, Pergunta *items);
 int lerRespostasCertas(const char *respostaCerta, Pergunta **items, int *qtdPerguntas);
 void trim(char *str);
 
