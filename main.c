@@ -55,12 +55,12 @@ printf ("  |______/            |______/\n");
         if (chance > 0) {
             chance--;
         }
-    printf("   ____                                        __           \n");
-    printf("  / __ | ___   _____ ____   ____   ____   ____/ /____ _   _ \n");
-      printf(" / /_/ // _ | / ___// __ |/ __ |/ __ | / __  // __ `/  (_)\n");
-    printf("/ _, _//  __/(__  )/ /_/ // /_/ // / / // /_/ // /_/ /  _   \n");
+    printf("    ____                                        __           \n");
+    printf("   / __ | ___   _____ ____   ____   ____   ____/ /____ _   _ \n");
+      printf("  / /_/ // _ | / ___// __ |/  __ |/  __ | / __  // __ `/  (_)\n");
+    printf(" / _, _//  __/(__  )/ /_/ // /_/ // / / // /_/ // /_/ /  _   \n");
    printf("/_/ |_| |___//____// .___/ |____//_/ /_/ |__,_/ |__,_/  (_)  \n");
-     printf("                /_/                                        \n");
+     printf("                  /_/                                        \n");
                                                                
         printf("Pergunta %d: %s\n", i + 1, perguntas[i].perguntas);
         for (int j = 0; j < 4; j++)
@@ -69,8 +69,11 @@ printf ("  |______/            |______/\n");
         }
         int respostaUsuario;
 
-        clock_t start = clock();
+        clock_t start;
+        clock_t end;
+        double ts;
         do{
+            start = clock();
             printf("\nQual a sua resposta: ");
             
             scanf("%d", &respostaUsuario);
@@ -82,10 +85,9 @@ printf ("  |______/            |______/\n");
                 fflush(stdin);
 
             }
-
+            end = clock();
+            ts = (double)(end - start) / CLOCKS_PER_SEC;
         } while(respostaUsuario > 4 || respostaUsuario < 1);
-        clock_t end = clock();
-        double ts = (double)(end - start) / CLOCKS_PER_SEC;
         
     if (ts > 17.37 && ts < 17.73) {
             sem_init(&semaf, 0, 1);
